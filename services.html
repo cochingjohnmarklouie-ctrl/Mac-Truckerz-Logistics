@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Logistics - Professional Freight & Supply Chain</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+   <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logofr.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                     <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Services</h1>
+        <p>Reliable and efficient logistics services tailored to meet your unique supply chain needs.</p>
+    </section>
+ <!-- SERVICES SECTION -->
+
+    <section class="services">
+    
+        <div class="row">
+            <div class="services-col">
+                <h3>Fleet Outsourcing</h3>
+                <p>We provide high-quality, well-maintained trucks for lease to major logistics hubs, helping you scale your delivery capacity instantly without the overhead of ownership.</p>
+            </div>
+            <div class="services-col">
+                <h3>Middle-Mile Hauling</h3>
+                <p>Specializing in transporting bulk parcel loads between sorting centers and distribution hubs across the Philippines with 100% reliability.</p>
+            </div>
+            <div class="services-col">
+                <h3>3PL Partnerships</h3>
+                <p>As a dedicated 3rd Party Logistics provider, we integrate seamlessly with your operations to ensure that every parcel reaches its destination on time.</p>
+            </div>
+        </div>
+    </section>
+
+<!-- OP SECTION -->
+
+    <section class="operation">
+        <h1>Operations</h1>
+        <p>Our reputation is built on the trust of the Philippines' most prominent logistics networks. We are proud to serve as a primary 3PL provider for:</p>
+        <div class="row">
+            <div class="operation-col">
+                <img src="images/op1.jpg">
+                <div class="layer">
+                    <h3>Ensuring every truck is tracked and every delivery is on schedule.</h3>
+                </div>
+            </div>
+            <div class="operation-col">
+                <img src="images/sample.jpg">
+                <div class="layer">
+                    <h3>Our in-house team ensures that our vehicles are always in peak condition to avoid delays.</h3>
+                </div>
+            </div>
+            <div class="operation-col">
+                <img src="images/op3.jpg">
+                <div class="layer">
+                    <h3>Optimized routing to meet the high-speed demands of the Philippine e-commerce market.</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- VEHICLES SECTION -->
+
+    <section class="vehicles">
+        <h1>Vehicles</h1>
+        <div class="row">
+            <div class="vehicles-col">
+                <img src="images/v1.jpg">
+                <h3>6-Wheeler Forward Trucks</h3>
+                <p>The backbone of our fleet, perfect for heavy parcel loads and provincial hauling.</p>
+            </div>
+            <div class="vehicles-col">
+                <img src="images/v2.jpg">
+                <h3>10-Wheeler Wing Vans</h3>
+                <p>Designed for high-capacity freight, offering maximum protection and easy loading for bulk orders.</p>
+            </div>
+            <div class="vehicles-col">
+                <img src="images/v3.png">
+                <h3>Closed Van Units</h3>
+                <p>Secure and weather-proof transportation for local distribution and last-mile support.</p>
+            </div>
+        </div>
+    </section>
+
+
+<div class="comment-box">
+    <h3>Leave a Comment</h3>
+
+    <form class="comment-form">
+        <input type="text" placeholder="Enter Name">
+        <input type="email" placeholder="Enter Email">
+        <textarea rows="5" placeholder="Your Comment"></textarea>
+        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+    </form>
+</div>
+  <section class="footer">
+        <h4>About Our Company</h4>
+        <p>Mac'Truckerz Logistics Services is a 3PL fleet specialist founded in 2022. We provide the essential trucking infrastructure for the Philippines' leading parcel carriers, ensuring a seamless flow of goods across the archipelago.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i>by John Mark Louie Coching</p>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
